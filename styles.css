@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+      to bottom right,
+      #027DFE 0%,
+      #298CE7 20%,
+      #519BD0 40%,
+      #85AFB1 60%,
+      #D9CF80 80%,
+      #E3D37A 90%,
+      #FFDE6A 100%
+  );
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.card {
+  max-width: 300px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  position: relative; /* Added this line */
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-top: 40px; /* Adjusted this line */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.checkbox-group input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.checkbox-group input[type="checkbox"]:checked {
+  background-color: #007bff;
+}
+
+.checkbox-group label {
+  cursor: pointer;
+}
+
+textarea {
+  width: 97%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #B5993A;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #B5993A;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

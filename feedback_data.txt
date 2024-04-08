@@ -1,0 +1,4 @@
+1|Complaint|The internet is too slow.|Yes
+2|Compliment|Great teamwork on the project.|No
+3|Complaint|Printer out of ink.|Yes
+4|Complaint|Meeting room was noisy.|No
